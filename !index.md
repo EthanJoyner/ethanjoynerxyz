@@ -5,4 +5,4 @@ permalink: /index/
 ---
 
 
-{% include pset/index.html%}
+{% include index.html%}

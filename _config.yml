@@ -6,3 +6,11 @@ baseurl: ""
 url: ""
 
 markdown: kramdown
+---
+c1: "#726193" 
+c2: "#e37b7c" 
+c3: "#ffe4b4"
+c4: "#353865"
+c5: "#2e2b37"
+bgc: "#e1e6e1"
+---
