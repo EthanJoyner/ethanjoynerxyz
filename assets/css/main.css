@@ -15,7 +15,7 @@
 	--c4: #f29f05; /* no apparent usage  can fill button text*/
 	--c5: #038c33; /* Shaded dominance on mod3 */
 	
-	--bodyText: black;	/* Also controls Icon color */
+	--bodyText: #2e2e2e;	/* Also controls Icon color */
 	--titleText: #f2f1ec;
 	--basText:#f2f1ec;
 	--contactFrameColor: #f29f05 ;
