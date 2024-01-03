@@ -8,20 +8,20 @@
 */
 
 :root {
-	--bgColor: #191919;
-	--c1: #fff; /* Holds third dominance on mod1, shaded dominance on mod2, logos1 fill  */
-	--c2: blue; /* Holds 3rd dominance on mod1, , logos2 fill solid icon fill */
-	--c3: #fff; /*Holds 3rd dominance on mod1 button hover color */
-	--c4: red; /* Shaded dominance on mod3 */
-	--c5: green; /* no apparent usage  can fill button text*/
+	--bgColor: #f2f1ec;
+	--c1: #f2293a; /* Holds third dominance on mod1, shaded dominance on mod2, logos1 fill  */
+	--c2: #0455bf; /* Holds 3rd dominance on mod1, , logos2 fill solid icon fill */
+	--c3: #f2f1ec; /*Holds 3rd dominance on mod1 button hover color */
+	--c4: #038c33; /* Shaded dominance on mod3 */
+	--c5: #f29f05; /* no apparent usage  can fill button text*/
 	--bodyText: black;	/* Also controls Icon color */
-	--titleText: pink;
-	--basText: rgba(0, 255, 255, 0.875);
-	--contactFrameColor: orange ;
-	--endFrameColor: rgba(214, 146, 146, 0.747);
-	--contactIconBase: red;
-	--wireIconFillNoHover: rgb(82, 5, 82);
-	--solidBttonBase: white;
+	--titleText: #f2f1ec;
+	--basText:#f2f1ec;
+	--contactFrameColor: #f29f05 ;
+	--endFrameColor: #038c33;
+	--contactIconBase: #f2f1ec;
+	--wireIconFillNoHover: #0455bf;
+	--solidBttonBase: #f2f1ec;
   }
 
 html, body, div, span, applet, object,
@@ -2212,10 +2212,11 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, var(--c1) 20%, var(--c2) 60%, var(--c3));
+				background-image: url("../../images/overlay.png"), linear-gradient( 45deg,var(--c1) 45% ,var(--c2) 45%, var(--c2)10%);
 				background-size: 128px 128px, auto;
 			}
 
+			radialGradient
 			.panel > *.color1 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
